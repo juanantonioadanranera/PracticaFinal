@@ -18,12 +18,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <EditText
-            android:id="@+id/countryName"
+            android:id="@+id/etplaceName"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="6"
             android:inputType="text"
-            android:labelFor="@id/countryName"
+            android:labelFor="@id/etplaceName"
             android:maxLines="1" />
 
         <ImageButton
@@ -50,7 +50,7 @@
             android:id="@+id/tvRespuesta"
             android:layout_width="match_parent"
             android:textSize="26dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
 
     </ScrollView>
 

@@ -5,7 +5,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "es.upm.miw.firebaselogin"
+        applicationId "es.upm.miw.practicafinal"
         minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
@@ -29,25 +29,19 @@ dependencies {
 
 
     // Firebase
-    //implementation 'com.google.firebase:firebase-core:16.0.4'
     implementation 'com.google.firebase:firebase-core:16.0.9'
-    //implementation 'com.google.firebase:firebase-core:16.0.3'
 
     implementation 'com.google.firebase:firebase-auth:16.0.5'
     // https://github.com/firebase/FirebaseUI-Android/tree/master/auth
-    //implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
     implementation 'com.firebaseui:firebase-ui-auth:4.2.1'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    provided 'org.glassfish:javax.annotation:3.1.1'
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
-    compile 'com.google.code.gson:gson:2.8.2'
-    compile 'org.apache.commons:commons-lang3:3.6'
-    implementation 'com.squareup.picasso:picasso:2+'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly 'org.glassfish:javax.annotation:3.1.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'org.apache.commons:commons-lang3:3.6'
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }
 
 // Google Services
-//apply plugin: 'com.google.gms.google-services'
-apply plugin: 'com.google.gms.google-services'// Google Services
-//apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.gms.google-services'
