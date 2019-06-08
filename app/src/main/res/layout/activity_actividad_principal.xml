@@ -12,11 +12,20 @@
     android:orientation="vertical"
     tools:context=".ActividadPrincipal">
 
+
+    <ImageView
+        android:id="@+id/iconImg"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:adjustViewBounds="true"
+        tools:src="@tools:sample/avatars" />
+
     <LinearLayout
         android:id="@+id/fila"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/etplaceName"
             android:layout_width="0dp"
@@ -27,6 +36,7 @@
             android:maxLines="1" />
 
         <ImageButton
+            android:id="@+id/btnSearch"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -35,14 +45,8 @@
             android:src="@android:drawable/ic_menu_search" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iconImg"
-        android:layout_width="match_parent"
-        android:layout_height="147dp"
-        android:adjustViewBounds="true"
-        tools:src="@tools:sample/avatars" />
-
     <ScrollView
+        android:id="@+id/svContenedor"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
