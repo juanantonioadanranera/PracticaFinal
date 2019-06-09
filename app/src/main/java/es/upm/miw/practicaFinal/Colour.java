@@ -7,8 +7,8 @@ import static java.lang.Math.min;
 
 public class Colour {
     private static final int NUM_COLORS = 7;
-    private static final double MAX_TEMP = 37.0;
-    private static final double MIN_TEMP = 3.0;
+    private static final double MAX_TEMP = 57.0;
+    private static final double MIN_TEMP = -23.0;
 
     RGB[] colors = new RGB[7];
 

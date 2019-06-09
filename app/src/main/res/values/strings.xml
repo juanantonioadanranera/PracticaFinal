@@ -7,5 +7,8 @@
     <string name="logout_button">Logout</string>
     <string name="firebase_user_fmt">Firebase User: %s</string>
     <string name="strError">No se ha recuperado ningún dato. Verifique el lugar introducido</string>
+    <string name="strErrorLampara">Error al comunicar con la lámpara. Revise la conexión</string>
+    <string name="strEncendidaLampara">Se ha encendido la Lámpara</string>
+    <string name="strApagadaLampara">Se ha apagado la Lámpara</string>
     <string name="btnDescripcion">Botón buscar</string>
 </resources>
